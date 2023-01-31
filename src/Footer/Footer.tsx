@@ -18,7 +18,7 @@ export const Footer = () => {
                     <a href={data.gitHub} target="_blank"><img src={git}/></a>
                     <a href={data.linkedin} target="_blank"><img src={link}/></a>
                 </div>
-                <div>
+                <div style={{margin: '10px 0'}}>
                     © 2023 All rights reserved
                 </div>
             </div>

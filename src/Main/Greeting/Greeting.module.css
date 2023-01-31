@@ -9,15 +9,25 @@
 }
 
 .greeting {
-    width: 100%;
+   width: 100%;
 }
 
 .statusMe{
-    font-size: 42px;
+    font-size: 30px;
     font-family: 'Livvic', sans-serif;
     letter-spacing: 0.1em;
     font-weight: 300;
     text-shadow:  none;
+    background-color: #cda173;
+    align-self: center;
+    width: max-content;
+    color: #1b1b1b;
+}
+
+.greetingCommon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 

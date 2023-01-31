@@ -51,7 +51,7 @@ export const ContactsForm = () => {
                             type={'submit'}
                             variant="outlined"
                             color="inherit"
-                            style={{fontFamily: 'Livvic'}}
+                            style={{fontFamily: 'Livvic', width: 'max-content', alignSelf: 'center'}}
                         >
                             Send message
                         </Button>
