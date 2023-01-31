@@ -1,0 +1,27 @@
+.aboutMeBlock{
+    background-color: #ffffff;
+}
+
+.aboutMeContainer{
+    box-sizing: border-box;
+    justify-content: space-around;
+    align-items: center;
+    text-align: start;
+    min-height: 50vh;
+}
+
+.aboutMe{
+    background-color: #e2e4e7;
+    width: 100%;
+    max-width: 500px;
+}
+
+.ava{
+    background-color: #e2e4e7;
+    height: 400px;
+    width: 300px;
+}
+
+label{
+    font-weight: 500;
+}

@@ -1,0 +1,24 @@
+
+.greetingBlock {
+    min-height: 90vh;
+}
+
+.greetingContainer {
+    align-items: center;
+    text-align: center;
+}
+
+.greeting {
+    width: 100%;
+}
+
+.statusMe{
+    font-size: 42px;
+    font-family: 'Livvic', sans-serif;
+    letter-spacing: 0.1em;
+    font-weight: 300;
+    text-shadow:  none;
+}
+
+
+

@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-family: 'Livvic', sans-serif;
+  font-size: 130px;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+}
+
+.colorClass{
+  color: #cda173;
+}
+
+.shadowApp{
+  text-shadow:  8px 8px #545252;
+}
+
+/*.backColor{
+  color: #cda173,//progect
+  color: #a7a3a3, //footer
+  color: #d2caca,//skills
+  color: #e5e5e5,//aboutMe
+}*/
