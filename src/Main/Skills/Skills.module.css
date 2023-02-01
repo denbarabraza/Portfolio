@@ -2,11 +2,6 @@
     background-color: #e5e5e5;
 }
 
-h2{
-    background-color: #e2e4e7;
-    border: 1px solid  ;
-}
-
 .skillsContainer{
     box-sizing: border-box;
     flex-direction: column;

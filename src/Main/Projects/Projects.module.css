@@ -2,11 +2,6 @@
     background-color: #cda173;
 }
 
-h2{
-    background-color: #e2e4e7;
-    border: 1px solid  ;
-}
-
 .projectContainer{
     box-sizing: border-box;
     flex-direction: column;

@@ -10,7 +10,7 @@ export const Skill = () => {
                     <div key={e.id} className={style.oneSkill}>
                         <img src={e.img} className={style.icon}/>
                         <h3>{e.title}</h3>
-                        <span className={style.description}>{e.description}</span>
+                        <div className={style.description}>{e.description}</div>
                     </div>
                 )
             })}

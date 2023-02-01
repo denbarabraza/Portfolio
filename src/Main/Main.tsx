@@ -32,7 +32,7 @@ export const Main = () => {
                     midtoneColor: 0xa7a3a3,
                     lowlightColor: 0xd2caca,
                     baseColor: 0xe5e5e5,
-                    speed: 2.6,
+                    speed: 3,
                     zoom: 2
                 })
             );
