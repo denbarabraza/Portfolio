@@ -40,7 +40,8 @@ type SkillsType = {
 type ProjectType = {
     id: string,
     img: string
-    href: string
+    hrefDemo: string
+    hrefView: string
     title: string,
     description: string
 }
@@ -110,21 +111,24 @@ export const data: DataType = {
         {
             id: v1(),
             img: socialNetwork,
-            href: 'https://github.com/denbarabraza/samurai-way',
+            hrefDemo: 'https://github.com/denbarabraza/samurai-way',
+            hrefView: 'https://github.com/denbarabraza/samurai-way',
             title: 'Social',
             description: 'Developers social network. Many features still in progress. But you can use base functions of any social network'
         },
         {
             id: v1(),
             img: todo,
-            href: 'https://github.com/denbarabraza/Todolist',
+            hrefDemo: 'https://github.com/denbarabraza/Todolist',
+            hrefView: 'https://github.com/denbarabraza/Todolist',
             title: 'Todo',
             description: 'Application build with ReactJS/Redux/TypeScript and styled components library.'
         },
         {
             id: v1(),
             img: counter,
-            href: 'https://github.com/denbarabraza/counter',
+            hrefDemo: 'https://github.com/denbarabraza/counter',
+            hrefView: 'https://github.com/denbarabraza/counter',
             title: 'Counter',
             description: 'Application build with ReactJS/Redux/TypeScript and styled components library.'
         }

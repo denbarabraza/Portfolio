@@ -10,7 +10,7 @@ export const Greeting = () => {
             <div className={s.container + ' ' + style.greetingContainer}>
                 <div className={`${style.greeting} && ${sApp.shadowApp}`}>
                     <h1 className={style.greetingCommon}>
-                        <div>Hello<span className={sApp.colorClass}>.</span></div>
+                        <div>Hello,</div>
                         <div>I’m</div>
                         <div className={`${style.statusMe} && ${sApp.colorClass}`}>
                             {data.statusMe}

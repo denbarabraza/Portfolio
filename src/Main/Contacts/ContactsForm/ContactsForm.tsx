@@ -33,15 +33,16 @@ export const ContactsForm = () => {
                         <CssTextField
                             label="Name"
                             margin={'dense'}
-                            placeholder={'Name'}
                         />
                         <CssTextField
                             label="Email"
                             margin={'dense'}
-                            placeholder={'Email'}
                         />
                         <CssTextField
-                            placeholder="Please enter your message"
+                            label="Number"
+                            margin={'dense'}
+                        />
+                        <CssTextField
                             label="Message"
                             margin={'dense'}
                             multiline={true}

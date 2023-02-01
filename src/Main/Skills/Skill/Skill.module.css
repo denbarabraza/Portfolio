@@ -19,6 +19,10 @@
     background-color: #ffffff;
     border-radius: 40px;
 }
+.oneSkill:hover{
+    border: 2px solid #cda173;
+    box-shadow: 5px 3px 2px 1px #cda173;
+}
 
 .icon{
     height: 50px;
