@@ -9,8 +9,8 @@ export const Project = () => {
                 return (
                     <div className={style.oneProject}>
                         <div className={style.icon} style={{backgroundImage: `url(${p.img})`}}>
-                            <div className={style.viewBtn}><a href={p.hrefView}>View</a></div>
-                            <div className={style.demoBtn}><a href={p.hrefDemo}>Demo</a></div>
+                            <a href={p.hrefView} className={style.viewBtn} target="_blank">View</a>
+                            {p.hrefDemo && <a href={p.hrefDemo} className={style.demoBtn} target="_blank">Demo</a>}
                         </div>
                         <div className={style.projectInfo}>
                             <h3>{p.title}</h3>

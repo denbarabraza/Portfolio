@@ -13,48 +13,47 @@
     align-items: center;
     text-align: center;
     background-color: #ffffff;
-    border-radius:  0 0 40px 40px;
-    text-decoration:none;
+    border-radius: 0 0 40px 40px;
+    text-decoration: none;
     color: black;
+    margin: 0 5px 40px 5px;
 }
 
-
-.icon{
+.icon {
+    justify-content: center;
     height: 300px;
     width: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
     align-items: center;
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat ;
-    position: relative;
+    background-repeat: no-repeat;
 }
 
-.icon:hover .viewBtn, .demoBtn{
+.icon:hover .viewBtn, .icon:hover .demoBtn {
     opacity: 1;
 }
 
-.viewBtn .demoBtn{
+.viewBtn .demoBtn {
     text-align: center;
-    position: absolute;
     opacity: 0;
     transition: opacity .35s ease;
 }
 
-.viewBtn, .demoBtn a{
+.viewBtn, .demoBtn {
     border: 1px solid #cda173;
     background-color: #cda173;
     color: black;
     font-family: 'Livvic', sans-serif;
     padding: 10px 20px;
-    text-decoration:none;
-    position: absolute;
+    text-decoration: none;
     opacity: 0;
     transition: opacity .35s ease;
     z-index: 1;
 }
 
-.description{
+.description {
     margin: 0 10px 10px 10px;
 }

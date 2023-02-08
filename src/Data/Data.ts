@@ -8,12 +8,13 @@ import unitTest from './img/skills/unitTest.svg'
 import htmlCss from './img/skills/css.svg'
 import socialNetwork from './img/projects/socialNetwork.jpg'
 import todo from './img/projects/todojpg.jpg'
-import counter from './img/projects/counter.png'
+import github from './img/social/github.png'
+import storybook from './img/skills/storybook.png'
 
 
 type DataType = {
     oneName: string
-    statusMe: string
+    statusMe: string[]
     name: string
     major: string
     aboutMe: string
@@ -48,10 +49,17 @@ type ProjectType = {
 
 export const data: DataType = {
     oneName: 'Denis',
-    statusMe: 'Front-end Developer who wants to be useful...',
+    statusMe: [
+        'Front-end Developer who wants to be useful...',
+        'Front-end Developer who can achieve a goal...',
+        'Front-end Developer who have organizational skills...',
+        'Front-end Developer who can adapted to new requirements...',
+        'Front-end Developer who can work in multitasking mode...',
+        'Front-end Developer who can work well under pressure...',
+    ],
     name: 'Denis Bareischev',
     major: 'Front - End Developer (React)',
-    aboutMe: 'I’m a front-end developer who has a results-focused attitude to creating SPA, using React(JS/TS), Redux. I would like to find project work and full-time employment in a company with a modern approach to development and a collaborative team.',
+    aboutMe: 'I’m a front-end developer who has a results-focused attitude to creating SPA, using React(JS/TS), Redux/Redux Toolkit. I would like to find project work and full-time employment in a company with a modern approach to development and a collaborative team.',
     ava: '',
     birthday: '05th september 1998',
     age: 24,
@@ -73,8 +81,8 @@ export const data: DataType = {
         {
             id: v1(),
             img: redux,
-            title: 'Redux',
-            description: 'Implemented Redux for state management of app as BLL. Created reducers for immutable state modification, and used Thunk middleware for asynchronous network requests.'
+            title: 'Redux/Redux Toolkit',
+            description: 'Implemented Redux/Redux Toolkit for state management of app as BLL. Created reducers for immutable state modification, and used Thunk middleware for asynchronous network requests.'
         },
         {
             id: v1(),
@@ -96,6 +104,12 @@ export const data: DataType = {
         },
         {
             id: v1(),
+            img: github,
+            title: 'Git/GitHub',
+            description: 'Git is a  tool used for source code management.'
+        },
+        {
+            id: v1(),
             img: restAPI,
             title: 'Rest API',
             description: 'Developed data access layer (DAL) for interaction with RESTful web services by using Axios library.'
@@ -105,6 +119,12 @@ export const data: DataType = {
             img: unitTest,
             title: 'Unit tests',
             description: 'Implemented TDD by creating Unit tests for reducers and components with Jest.'
+        },
+        {
+            id: v1(),
+            img: storybook,
+            title: 'Storybook',
+            description: 'Storybook using for building UI components and pages in isolation'
         },
     ],
     projects: [
@@ -126,11 +146,27 @@ export const data: DataType = {
         },
         {
             id: v1(),
-            img: counter,
-            hrefDemo: 'https://github.com/denbarabraza/counter',
-            hrefView: 'https://github.com/denbarabraza/counter',
-            title: 'Counter',
+            img: todo,
+            hrefDemo: 'https://github.com/denbarabraza/Todolist',
+            hrefView: 'https://github.com/denbarabraza/Todolist',
+            title: 'Todo',
             description: 'Application build with ReactJS/Redux/TypeScript and styled components library.'
-        }
+        },
+        {
+            id: v1(),
+            img: todo,
+            hrefDemo: 'https://github.com/denbarabraza/Todolist',
+            hrefView: 'https://github.com/denbarabraza/Todolist',
+            title: 'Todo',
+            description: 'Application build with ReactJS/Redux/TypeScript and styled components library.'
+        },
+        /* {
+             id: v1(),
+             img: counter,
+             hrefDemo: 'https://github.com/denbarabraza/counter',
+             hrefView: 'https://github.com/denbarabraza/counter',
+             title: 'Counter',
+             description: 'Application build with ReactJS/Redux/TypeScript and styled components library.'
+         }*/
     ]
 }

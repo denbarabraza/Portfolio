@@ -12,7 +12,6 @@ export const AboutMe = () => {
                 </div>
                 <div className={style.aboutMe}>
                     <h3>{data.name}</h3>
-                    <h5>{data.major}</h5>
                     <div>{data.aboutMe}</div>
                     <div>
                         <label>Birthday: </label>
