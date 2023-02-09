@@ -21,9 +21,9 @@
     border: 2px solid transparent;
 }
 .oneSkill:hover{
-    border: 2px solid #cda173;
-    box-shadow: 5px 3px 2px 1px #cda173;
-}
+    border: 2px solid #9f9d9d;
+    box-shadow: 5px 3px 2px 1px #9f9d9d;
+  }
 
 .icon{
     height: 50px;

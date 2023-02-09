@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import style from './Greeting.module.css'
 import s from '../../common/styles/Container.module.css'
 import sApp from '../../App.module.css'
@@ -7,33 +7,21 @@ import {data} from "../../Data/Data";
 
 export const Greeting = () => {
 
-    let ar1=data.statusMe.filter((e,index)=>index%2!==0)
-    let ar2=data.statusMe.filter((e,index)=>index%2===0)
-
     return (
-        <div className={style.greetingBlock}>
+        <div className={style.greetingBlock} >
             <div className={s.container + ' ' + style.greetingContainer}>
-                <div className={`${style.greeting} && ${sApp.shadowApp}`}>
+                <div className={`${style.greeting} && ${sApp.shadowApp}`} id={'greeting'}>
                     <h1 className={style.greetingCommon}>
                         <div>Hello,</div>
                         <div>I’m</div>
-                        <div className={`${style.statusMe} && ${sApp.colorClass}`}>
+                        <div className={`${style.statusMe}`}>
                             <Typewriter
                                 options={{
-                                    strings: ar1,
+                                    strings: data.statusMe,
                                     autoStart: true,
                                     loop: true,
-                                    delay: 40,
-                                    deleteSpeed: 20,
-                                }}
-                            />
-                            <Typewriter
-                                options={{
-                                    strings: ar2,
-                                    autoStart: true,
-                                    loop: true,
-                                    delay: 40,
-                                    deleteSpeed: 20,
+                                    delay: 65,
+                                    deleteSpeed: 18,
                                 }}
                             />
                         </div>

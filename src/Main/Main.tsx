@@ -10,6 +10,7 @@ import {Header} from "../Header/Header";
 import FOG from "vanta/dist/vanta.fog.min.js"
 // @ts-ignore
 import * as THREE from "three";
+import HideAppBar from "../common/HideAppBar/HideAppBar";
 
 
 export const Main = () => {
@@ -42,12 +43,11 @@ export const Main = () => {
         };
     }, [vantaEffect]);
 
-
     return (
         <div className={style.main}>
             <div ref={vantaRef}>
-                <Header/>
-                <Greeting/>
+                <HideAppBar children={<Header/>}/>
+                <Greeting />
             </div>
             <AboutMe/>
             <Skills/>

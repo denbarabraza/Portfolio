@@ -5,7 +5,7 @@ import s from '../../common/styles/Container.module.css'
 
 export const Projects = () => {
     return (
-        <div className={style.projectBlock}>
+        <div className={style.projectBlock} id={'projects'}>
             <div className={s.container + ' ' + style.projectContainer}>
                 <h2>Projects</h2>
                 <Project/>

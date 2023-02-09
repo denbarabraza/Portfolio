@@ -1,6 +1,6 @@
 
 .greetingBlock {
-    min-height: 90vh;
+    min-height: 100vh;
 }
 
 .greetingContainer {
@@ -9,24 +9,65 @@
 }
 
 .greeting {
-   width: 100%;
+    width: 100%;
 }
 
-.statusMe{
+.statusMe {
     font-size: 30px;
     font-family: 'Livvic', sans-serif;
     letter-spacing: 0.1em;
     font-weight: 500;
-    text-shadow:  none;
+    text-shadow: none;
     align-self: center;
     width: max-content;
     color: #1b1b1b;
+
 }
 
-.greetingCommon{
+.greetingCommon {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width: 912px) {
+    .statusMe {
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width: 712px) {
+    .statusMe {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .statusMe {
+        font-size: 11px;
+        font-family: 'Livvic', sans-serif;
+        font-weight: 500;
+        text-shadow: none;
+        align-self: center;
+        max-width: 90%;
+        color: #1b1b1b;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .statusMe {
+        font-size: 11px;
+        font-family: 'Livvic', sans-serif;
+        font-weight: 500;
+        text-shadow: none;
+        align-self: center;
+        max-width: 100%;
+        color: #1b1b1b;
+    }
 }
 
 

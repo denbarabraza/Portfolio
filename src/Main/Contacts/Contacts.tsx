@@ -5,7 +5,7 @@ import {ContactsForm} from "./ContactsForm/ContactsForm";
 
 export const Contacts = () => {
     return (
-        <div className={style.contactsBlock}>
+        <div className={style.contactsBlock} id={'contacts'}>
             <div className={s.container + ' ' + style.contactsContainer}>
                 <h2>Contacts</h2>
                 <ContactsForm/>

@@ -29,10 +29,37 @@ h3 {
 .shadowApp{
   text-shadow:  8px 8px #545252;
 }
+@media screen and (max-width: 768px) {
+  h1 {
+    color: white;
+    font-family: 'Livvic', sans-serif;
+    font-size: 70px;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+  }
+  h2 {
+    font-family: 'Livvic', sans-serif;
+    font-size: 30px;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+  }
+  h3 {
+    font-family: 'Livvic', sans-serif;
+    font-size: 17px;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+  }
+}
 
-/*.backColor{
-  color: #cda173,//progect
-  color: #a7a3a3, //footer
-  color: #d2caca,//skills
-  color: #e5e5e5,//aboutMe
-}*/
+@media screen and (max-width: 414px) {
+  .statusMe {
+    font-size: 10px;
+    font-family: 'Livvic', sans-serif;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    text-shadow: none;
+    align-self: center;
+    width: max-content;
+    color: #1b1b1b;
+  }
+}

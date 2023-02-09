@@ -7,7 +7,7 @@ export const Project = () => {
         <div className={style.project}>
             {data.projects.map(p => {
                 return (
-                    <div className={style.oneProject}>
+                    <div className={style.oneProject} id={p.id}>
                         <div className={style.icon} style={{backgroundImage: `url(${p.img})`}}>
                             <a href={p.hrefView} className={style.viewBtn} target="_blank">View</a>
                             {p.hrefDemo && <a href={p.hrefDemo} className={style.demoBtn} target="_blank">Demo</a>}
@@ -16,7 +16,6 @@ export const Project = () => {
                             <h3>{p.title}</h3>
                             <div className={style.description}>{p.description}</div>
                         </div>
-
                     </div>
                 )
             })}

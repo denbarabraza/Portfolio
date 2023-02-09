@@ -5,7 +5,7 @@ import {data} from "../../Data/Data";
 
 export const AboutMe = () => {
     return (
-        <div className={style.aboutMeBlock}>
+        <div className={style.aboutMeBlock} id={'about'}>
             <div className={s.container+' '+style.aboutMeContainer}>
                 <div className={style.ava}>
                     {data.ava}
