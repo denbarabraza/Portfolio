@@ -7,8 +7,7 @@ export const AboutMe = () => {
     return (
         <div className={style.aboutMeBlock} id={'about'}>
             <div className={s.container+' '+style.aboutMeContainer}>
-                <div className={style.ava}>
-                    {data.ava}
+                <div className={style.ava} style={{backgroundImage: `url(${data.ava})`}}>
                 </div>
                 <div className={style.aboutMe}>
                     <h3>{data.name}</h3>

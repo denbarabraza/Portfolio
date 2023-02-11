@@ -23,6 +23,9 @@
     background-color: #e2e4e7;
     height: 400px;
     width: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 label{

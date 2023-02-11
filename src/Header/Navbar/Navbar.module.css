@@ -35,3 +35,7 @@
         margin: 0 auto;
     }
 }
+
+.navbarItem:hover{
+    background-color: #cda173;
+}

@@ -6,11 +6,11 @@ export const Navbar = () => {
     return (
         <div>
             <div className={style.navbar}>
-                <a href="#greeting">Home</a>
-                <a href="#about">About</a>
-                <a href="#skills">Skills</a>
-                <a href="#projects">Projects</a>
-                <a href="#contacts">Contacts</a>
+                <a href="#greeting" className={style.navbarItem}>Home</a>
+                <a href="#about" className={style.navbarItem}>About</a>
+                <a href="#skills" className={style.navbarItem}>Skills</a>
+                <a href="#projects" className={style.navbarItem}>Projects</a>
+                <a href="#contacts" className={style.navbarItem}>Contacts</a>
             </div>
         </div>
     );

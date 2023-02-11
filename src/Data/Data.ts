@@ -10,6 +10,7 @@ import socialNetwork from './img/projects/socialNetwork.jpg'
 import todo from './img/projects/todojpg.jpg'
 import github from './img/social/github.png'
 import storybook from './img/skills/storybook.png'
+import myFoto from './img/myFoto.jpg'
 
 
 type DataType = {
@@ -58,7 +59,7 @@ export const data: DataType = {
     name: 'Denis Bareischev',
     major: 'Front - End Developer (React)',
     aboutMe: 'I’m a front-end developer who has a results-focused attitude to creating SPA, using React(JS/TS), Redux/Redux Toolkit. I would like to find project work and full-time employment in a company with a modern approach to development and a collaborative team.',
-    ava: '',
+    ava: myFoto,
     birthday: '05th september 1998',
     age: 24,
     residence: 'Belarus',
