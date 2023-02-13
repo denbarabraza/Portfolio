@@ -21,7 +21,6 @@ type DataType = {
     aboutMe: string
     birthday: string
     age: number
-    residence: string,
     address: string
     eMail: string
     phone: string
@@ -58,11 +57,12 @@ export const data: DataType = {
     ],
     name: 'Denis Bareischev',
     major: 'Front - End Developer (React)',
-    aboutMe: 'I’m a front-end developer who has a results-focused attitude to creating SPA, using React(JS/TS), Redux/Redux Toolkit. I would like to find project work and full-time employment in a company with a modern approach to development and a collaborative team.',
+    aboutMe: 'I’m a hardworking front-end developer having a result-focused attitude to creating SPA via React(JS/TS), Redux/Redux Toolkit.\n' +
+        '\n' +
+        'I want to find full-time project work in a company with a modern approach to development and become a part of an involved and cohesive team.',
     ava: myFoto,
     birthday: '05th september 1998',
     age: 24,
-    residence: 'Belarus',
     address: 'Minsk, Belarus',
     eMail: 'denis.bareischev@gmail.com',
     phone: '+375(44)491-38-70',
@@ -153,12 +153,13 @@ export const data: DataType = {
         },
         {
             id: v1(),
-            img: todo,
-            hrefDemo: 'https://github.com/denbarabraza/Todolist',
-            hrefView: 'https://github.com/denbarabraza/Todolist',
-            title: 'Todo',
-            description: 'Application build with ReactJS/Redux/TypeScript and styled components library.'
+            img: '',
+            hrefDemo: '',
+            hrefView: '',
+            title: '...',
+            description: 'Your project could be here ;)'
         },
+
         /* {
              id: v1(),
              img: counter,

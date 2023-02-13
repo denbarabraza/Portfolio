@@ -9,7 +9,7 @@ export const Project = () => {
                 return (
                     <div className={style.oneProject} id={p.id}>
                         <div className={style.icon} style={{backgroundImage: `url(${p.img})`}}>
-                            <a href={p.hrefView} className={style.viewBtn} target="_blank">View</a>
+                            {p.hrefView && <a href={p.hrefView} className={style.viewBtn} target="_blank">View</a>}
                             {p.hrefDemo && <a href={p.hrefDemo} className={style.demoBtn} target="_blank">Demo</a>}
                         </div>
                         <div className={style.projectInfo}>

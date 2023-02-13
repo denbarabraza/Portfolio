@@ -21,10 +21,6 @@ export const AboutMe = () => {
                         <span>{data.age}</span>
                     </div>
                     <div>
-                        <label>Residence: </label>
-                        <span>{data.residence}</span>
-                    </div>
-                    <div>
                         <label>Address: </label>
                         <span>{data.address}</span>
                     </div>
