@@ -12,17 +12,17 @@
 }
 
 .aboutMe{
-    max-width: 550px;
+    max-width: 700px;
 }
 
 .aboutMe div{
-   font-size: 18px;
+   font-size: 20px;
 }
 
 .ava{
     background-color: #e2e4e7;
-    height: 400px;
-    width: 300px;
+    height: 600px;
+    width: 500px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
