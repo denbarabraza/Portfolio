@@ -57,9 +57,9 @@ export const data: DataType = {
     ],
     name: 'Denis Bareischev',
     major: 'Front - End Developer (React)',
-    aboutMe: 'I’m a hardworking front-end developer having a result-focused attitude to creating SPA via React(JS/TS), Redux/Redux Toolkit.\n' +
-        '\n' +
-        'I want to find full-time project work in a company with a modern approach to development and become a part of an involved and cohesive team.',
+    aboutMe: 'I’m a hardworking and experienced Front-end developer having a result-focused attitude to creating SPA via React(JS/TS), Redux/Redux Toolkit.\n' +
+        '     Improving my skills and trying to follow the latest and most effective technologies.\n' +
+        '     I\'m currently studying React Native because it\'s interesting to me and my next goal is to become a mobile developer.',
     ava: myFoto,
     birthday: '05th september 1998',
     age: 24,
