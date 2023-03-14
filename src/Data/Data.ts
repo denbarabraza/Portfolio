@@ -8,6 +8,7 @@ import unitTest from './img/skills/unitTest.svg'
 import htmlCss from './img/skills/css.svg'
 import socialNetwork from './img/projects/socialNetwork.jpg'
 import todo from './img/projects/todojpg.jpg'
+import learn from './img/projects/learn.jpg'
 import github from './img/social/github.png'
 import storybook from './img/skills/storybook.png'
 import myFoto from './img/myFoto.jpg'
@@ -41,7 +42,7 @@ type SkillsType = {
 type ProjectType = {
     id: string,
     img: string
-    hrefDemo: string
+    hrefDemo?: string
     hrefView: string
     title: string,
     description: string
@@ -129,27 +130,27 @@ export const data: DataType = {
     projects: [
         {
             id: v1(),
+            img: learn,
+            hrefDemo: 'https://denbarabraza.github.io/learn_together/#/pack-list',
+            hrefView: 'https://github.com/denbarabraza/learn_together',
+            title: 'Learn Together',
+            description:
+                'You can create your own study cards in the app and share them with other students. Study your cards and a friend\'s cards. After studying, evaluate your knowledge, and in case of a low score, the question will be repeated again for a better study of the question.'
+        },
+        {
+            id: v1(),
+            img: todo,
+            hrefView: 'https://github.com/denbarabraza/Todolist',
+            hrefDemo: 'https://denbarabraza.github.io/Todolist/',
+            title: 'Todo',
+            description: 'Application build with React/Redux/TypeScript. Allows you to effectively organize work according to the Japanese methodology of kanban boards. An analogue of trello...'
+        },
+        {
+            id: v1(),
             img: socialNetwork,
-            hrefDemo: 'https://github.com/denbarabraza/samurai-way',
             hrefView: 'https://github.com/denbarabraza/samurai-way',
             title: 'Social',
             description: 'Developers social network. Many features still in progress. But you can use base functions of any social network'
-        },
-        {
-            id: v1(),
-            img: todo,
-            hrefDemo: 'https://github.com/denbarabraza/Todolist',
-            hrefView: 'https://github.com/denbarabraza/Todolist',
-            title: 'Todo',
-            description: 'Application build with ReactJS/Redux/TypeScript and styled components library.'
-        },
-        {
-            id: v1(),
-            img: todo,
-            hrefDemo: 'https://github.com/denbarabraza/Todolist',
-            hrefView: 'https://github.com/denbarabraza/Todolist',
-            title: 'Todo',
-            description: 'Application build with ReactJS/Redux/TypeScript and styled components library.'
         },
         {
             id: v1(),
