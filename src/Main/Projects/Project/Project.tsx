@@ -6,6 +6,7 @@ export const Project = () => {
     return (
         <div className={style.project}>
             {data.projects.map(p => {
+
                 return (
                     <div className={style.oneProject} id={p.id}>
                         <div className={style.icon} style={{backgroundImage: `url(${p.img})`}}>
